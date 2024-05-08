@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  box-sizing: border-box;
+  line-height: 1;
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --darkGrey: hsl(0, 0%, 12%);
+  --offBlack: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  cursor: default;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  text-edge: cap alphabetic;
+  leading-trim: both;
+}
+
+*::selection {
+  background-color: var(--green);
+  color: var(--darkGrey);
+}
