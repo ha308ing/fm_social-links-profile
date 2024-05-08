@@ -4,7 +4,7 @@ import type { TProfile } from "./ProfileCard";
 
 const profileData: TProfile["profile"] = {
   avatar: {
-    src: "/avatar-jessica.jpeg",
+    src: "./avatar-jessica.jpeg",
     alt: "Jessica Randall Profile Photo",
   },
   name: "Jessica Randall",
